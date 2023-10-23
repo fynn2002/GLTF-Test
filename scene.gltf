@@ -1,0 +1,313 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.9969470500946045,
+        0.8633816242218018,
+        53.78765869140625
+      ],
+      "min": [
+        -0.9969468116760254,
+        -0.8633812069892883,
+        -49.27665328979492
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 600,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.9999979734420776,
+        0.8659737706184387,
+        1.0
+      ],
+      "min": [
+        -0.9999979734420776,
+        -0.8659738302230835,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.9166666865348816,
+        1.0
+      ],
+      "min": [
+        -0.08333331346511841,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 156,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1200,
+      "componentType": 5126,
+      "count": 740,
+      "max": [
+        13.996572494506836,
+        87.4974365234375,
+        112.08025360107422
+      ],
+      "min": [
+        -70.82132720947266,
+        3.2498703002929688,
+        -75.90108489990234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10080,
+      "componentType": 5126,
+      "count": 740,
+      "max": [
+        0.9934531450271606,
+        0.9971861243247986,
+        0.990815281867981
+      ],
+      "min": [
+        -0.9989361763000488,
+        -0.9759994149208069,
+        -0.9932280778884888
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 624,
+      "componentType": 5125,
+      "count": 2178,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Anyelo Cavazza (https://sketchfab.com/AnyeloCavazza)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/needle-and-thread-inktober-ddd34c84b93649e2b1de4b1afecb58a0",
+      "title": "Needle and thread - Inktober"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9336,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 400,
+      "byteOffset": 9336,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18960,
+      "byteOffset": 9736,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 28696,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "aguja",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.30194679358717225,
+          0.30194679358717225,
+          0.30194679358717225,
+          1.0
+        ],
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "hilo",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "aguja_aguja_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "hilo_hilo_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 6,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.03879789263010025,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.614862740974394e-18,
+        -0.03879789263010025,
+        0.0,
+        0.0,
+        0.03879789263010025,
+        8.614862740974394e-18,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "10d303afd96646438dfea7a6b7c7c561.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.5131675066459824,
+        -1.1102230246251565e-16,
+        0.8582884772165741,
+        0.0,
+        0.8582884772165741,
+        1.1102230246251565e-16,
+        -0.5131675066459825,
+        0.0,
+        -1.1102230246251565e-16,
+        1.0,
+        1.1102230246251565e-16,
+        0.0,
+        -13.488048553466797,
+        50.058692932128906,
+        -17.84375762939453,
+        1.0
+      ],
+      "name": "aguja"
+    },
+    {
+      "mesh": 0,
+      "name": "aguja_aguja_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        8.312379837036133,
+        55.41107177734375,
+        23.545406341552734,
+        1.0
+      ],
+      "name": "hilo"
+    },
+    {
+      "mesh": 1,
+      "name": "hilo_hilo_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
